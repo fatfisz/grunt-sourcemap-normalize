@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "fatfisz",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}

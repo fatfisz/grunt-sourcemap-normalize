@@ -1,0 +1,52 @@
+{
+  "name": "grunt-sourcemap-normalize",
+  "version": "1.0.0-rc1",
+  "description": "Normalize source map paths for cross-platform usage",
+  "files": [
+    "tasks/source_map_normalize.js"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "map",
+    "source",
+    "sourcemap",
+    "sources",
+    "windows"
+  ],
+  "homepage": "https://github.com/fatfisz/grunt-sourcemap-normalize",
+  "repository": "https://github.com/fatfisz/grunt-sourcemap-normalize.git",
+  "author": {
+    "name": "FatFisz",
+    "url": "https://github.com/fatfisz"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "source-map-support": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-fatfisz": "^2.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-eslint": "^18.1.0",
+    "grunt-mocha-test": "^0.12.7",
+    "grunt-rollup": "^0.7.1",
+    "load-grunt-tasks": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mockery": "^1.7.0",
+    "rollup-plugin-buble": "^0.8.0",
+    "rollup-plugin-node-resolve": "^1.5.0",
+    "should": "^8.3.1",
+    "should-sinon": "0.0.5",
+    "sinon": "^2.0.0-pre"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  }
+}
