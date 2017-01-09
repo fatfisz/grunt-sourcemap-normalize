@@ -1,6 +1,6 @@
 {
   "name": "grunt-sourcemap-normalize",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "description": "Normalize source map paths for cross-platform usage",
   "files": [
     "tasks/source_map_normalize.js"
